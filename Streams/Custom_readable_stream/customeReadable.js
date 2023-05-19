@@ -2,7 +2,7 @@ import { Readable } from "stream";
 import Chance from 'chance';
 
 const chance = new Chance();
-class RandomStream extends Readable{
+export class RandomStream extends Readable{
 
     constructor(options){
         super(options);
